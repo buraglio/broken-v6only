@@ -10,6 +10,7 @@
 |---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |
 |**Hardware**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**Suports IPv6 only**|**Caveats and Notes**|
+|Fritzbox LTE 6820|FRITZ!OS|AVM|7.27|Y|Y|some services are broken/unusable, the basic routing function works|
 |    |   |   |  |  |   |   |
 |---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |
