@@ -31,6 +31,4 @@
 |Apple recovery boot|MacOSX|Apple|All|U|N|System fails to pull recovery information upon restoration boot while connected to IPv6-only network with NAT64/DNS64. Works with dual stack|
 |Synology initial setup|DSM|Synology|All|U|N|DSM cannot discover setup host while connected to IPv6-only network with NAT64/DNS64. Works with dual stack|
 |    |   |   |  |  |   |   |
-|---|---|---|---|---|---|---|
-|    |   |   |  |  |   |   |
-|    |   |   |  |  |   |   |
+
