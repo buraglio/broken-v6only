@@ -4,8 +4,6 @@
 
 ## ***"IPv6-only" is defined as the ability to function at full capacity with all features in the complete absense of legacy IPv4. For some entries, this may mean that they exist as dual stack but have 100% functionality from a client or peer that has no legacy IPv4.***
 
-## This should probably turn into a database or better wiki page at some point. 
-
 ## Legend:
 ### Y: Yes
 
@@ -26,7 +24,7 @@
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
 |**Hardware**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**Suports IPv6 only**|**NAT64/DNS64 Present**|**Caveats and Notes**|
-|    |   |   |  |  |   |   |    |
+|Fritzbox LTE 6820|FRITZ!OS|AVM|7.27|Y|Y|U|some services are broken/unusable, the basic routing function works|
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
 |**Service**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**Suports IPv6 only**|**NAT64/DNS64 Present**|**Caveats and Notes**|
@@ -37,6 +35,6 @@
 |    |   |   |  |  |   |   |   |
 |**Processes**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**NAT64/DNS64 Present**|**Caveats and Notes**|
 |Apple recovery boot|MacOSX|Apple|All|U|N|Y|System fails to pull recovery information upon restoration boot while connected to IPv6-only network with NAT64/DNS64. Works with dual stack|
-|Synology initial setup|DSM|Synology|All|U|N|DSM cannot discover setup host while connected to IPv6-only network with NAT64/DNS64. Works with dual stack|
+|Synology initial setup|DSM|Synology|All|U|N|Y|DSM cannot discover setup host while connected to IPv6-only network with NAT64/DNS64. Works with dual stack|
 |    |   |   |  |  |   |   |    |
 
