@@ -6,6 +6,7 @@
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
 |Spotify|Desktop Client|Spotify|All|Y|N|Y|Spotify desktop client does not work by default with in the absense of IPv4. Web and mobile applications work on IPv6-only. It is possible to run `command`|
+|Steam|Desktop Client|Valve|All?|N|N|N|client cannot connect to steam web services over IPv6 (even via NAT64); it will enter offline mode|
 |    |   |   |  |  |   |   |    |
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
