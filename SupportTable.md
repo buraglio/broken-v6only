@@ -1,3 +1,13 @@
+## ***"IPv6-only" is defined as the ability to function at full capacity with all features in the complete absense of legacy IPv4. For some entries, this may mean that they exist as dual stack but have 100% functionality from a client or peer that has no legacy IPv4.***
+
+## Legend:
+### Y: Yes
+
+### N: No
+
+### U: Unknown  
+
+
 |    |   |   |  |  |   |   |    |
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
@@ -12,6 +22,9 @@
 |    |   |   |  |  |   |   |    |
 |**Hardware**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**Suports IPv6 only**|**NAT64/DNS64 Present**|**Caveats and Notes**|
 |Fritzbox LTE 6820|FRITZ!OS|AVM|7.27|Y|Y|U|some services are broken/unusable, the basic routing function works|
+|Amazon Alexa|Dot|Amazon|N/A|Y|N|Y|This seemed to work with NAT64 in place but as of 11/2/2021 announced an error about not being connected to Wifi when connected to an IPv6 only network|
+|Roku|All|Roku|All|N|N|U|Roku has a long tradition of ignoring IPv6 support requests and has no support whatsoever on any of their platforms including the stand alone devices as well as the embedded Roku TVs|
+
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
 |**Service**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**Suports IPv6 only**|**NAT64/DNS64 Present**|**Caveats and Notes**|
