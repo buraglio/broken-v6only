@@ -15,9 +15,12 @@
 |    |   |   |  |  |   |   |    |
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
-|Spotify|Desktop Client|Spotify|All|Y|N|Y|Spotify desktop client does not work by default with in the absense of IPv4. Web and mobile applications work on IPv6-only. It is possible to run `command`|
+|Spotify|Desktop Client|Spotify|All|Y|N|Y|Spotify desktop client does not work by default with in the absense of IPv4. Web and mobile applications work on IPv6-only. It is possible to run the command-line switch `--experimental-network` and make the platform work as v6-only|
 |Steam|Desktop Client|Valve|All?|N|N|N|client cannot connect to steam web services over IPv6 (even via NAT64); it will enter offline mode|
+|Epic Games Launcher|Desktop Client|Epic|All?|N|N|N|client cannot connect to epic web services over IPv6 (even via NAT64)|
+|Rockstar Games Launcher|Desktop Client|Rockstar Games|All?|N|N|N|client cannot connect to web services over IPv6 (even via NAT64)|
 |Unifi controller|All|Ubiquity|All|N|N|Y|underlying operating system may support IPv6 (or IPv6 only) but the unifi controller software does not support any functionality over IPv6, including discovery or management of any devices| 
+|AnyDesk|Desktop Client|AnyDesk|All?|N|N|U|client does not work over IPv6-only (may via NAT64)|
 |    |   |   |  |  |   |   |    |
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
