@@ -29,6 +29,10 @@
 |Amazon Alexa|Dot|Amazon|N/A|Y|N|Y|This seemed to work with NAT64 in place but as of 11/2/2021 announced an error about not being connected to Wifi when connected to an IPv6 only network|
 |Roku|All|Roku|All|N|N|U|Roku has a long tradition of ignoring IPv6 support requests and has no support whatsoever on any of their platforms including the stand alone devices as well as the embedded Roku TVs|
 |Unifi|All|Ubiquity|All|Y|N|Y|Most unifi hardware supports receiving an IPv6 address via SLAAC, or manually assigning it via the SSH terminal. Devices will not use these addresses for management, logging, or discovery via the Unifi software. It may log to a remote syslog server over IPv6 adn will listen to SSH via IPv6|
+|Strata SD-WAN|PAN-OS|Palo Alto|10.1|N|N|N|Palo Alto Strata SD-WAN has no IPv6 support|
+|SD-WAN (Viptela, not Miraki)|vMangae/vBond/vSmart/vEdge/cEdge|Cisco|20.6|Y|N|N|Control connections between vManage/vBond/vSmart works IPv6 only. vManage web page access works IPv6 only in theory, but [CSCvz60689](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz60689) prevents logins via IPv6. Tunnels are IPv4 only but can transport IPv6.|
+|SD-WAN|VOS|Versa Networks|21.2|Y|N|N|Tunnels work IPv6 only. Control connections between Director and Controller are IPv4 only. Director does not Support IPv6.|
+|    |   |   |  |  |   |   |    |
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
 |**Service**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**Suports IPv6 only**|**NAT64/DNS64 Present**|**Caveats and Notes**|
