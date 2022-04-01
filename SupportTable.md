@@ -39,6 +39,7 @@
 |Github|Web|Microsoft|All|N|N|Y|Some IPv6 support has been reported. GitHub.IO has v6 support but the main site does not.|
 |Twitter|Web|Twitter|All|N|N|Y| |
 |Plex|Web|Plex.tv|All|N|N|Y|Plex has "partial" support. Plex supports IPv6 at the socket-layer, but doesn't "auto-configure" IPv6 on the remote-end (the [ipv4].[server-uid].plex.direct system), as such, doscovery via IPv6 does not work at all unless a manual hostname is created and appropriate DNS entries for it (which are sent up to plex.tv as additional hostnames to try)|
+|Synology|Synology Cloud|Synology|All?|N|N|Y|Service does not work over IPv6-only (may via NAT64)|
 |    |   |   |  |  |   |   |   |
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |   |
