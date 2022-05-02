@@ -42,6 +42,7 @@
 |Synology|Synology Cloud|Synology|All?|N|N|Y|Service does not work over IPv6-only (may via NAT64)|
 |Slack|Web|Slack/Salesforce|All|N|N|Y|No IPv6-only support without NAT64/DNS64.|
 |Discord|Web|Discord|All|N|N|Y|No IPv6-only support without NAT64/DNS64.|
+|Fortinet|FortiClient Installer and Client|All|Y|N|N|Install fails with NAT64 or IPv6-only. Connection to IPv4 endpoint from NAT64 is buggy|
 |    |   |   |  |  |   |   |   |
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |   |
