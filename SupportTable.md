@@ -32,6 +32,7 @@
 |Strata SD-WAN|PAN-OS|Palo Alto|10.1|N|N|N|Palo Alto Strata SD-WAN has no IPv6 support|
 |SD-WAN (Viptela, not Miraki)|vMangae/vBond/vSmart/vEdge/cEdge|Cisco|20.6|Y|N|N|Control connections between vManage/vBond/vSmart works IPv6 only. vManage web page access works IPv6 only in theory, but [CSCvz60689](https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz60689) prevents logins via IPv6. Tunnels are IPv4 only but can transport IPv6.|
 |SD-WAN|VOS|Versa Networks|21.2|Y|N|N|Tunnels work IPv6 only. Control connections between Director and Controller are IPv4 only. Director does not Support IPv6.|
+|TP-Link Omada|Linux / Java|TP-Link|All|N|N|U|Connections APs and Controller are IPv4 only. APs run Busybox and have no IPv6. Controller software seems to only listen on IPv4|
 |    |   |   |  |  |   |   |    |
 |---|---|---|---|---|---|---|---|
 |    |   |   |  |  |   |   |    |
