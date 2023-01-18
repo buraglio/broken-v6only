@@ -39,7 +39,6 @@
 |**Service**|**Platform**|**Vendor**|**Version**|**Supports IPv6**|**Suports IPv6 only**|**NAT64/DNS64 Present**|**Caveats and Notes**|
 |Github|Web|Microsoft|All|N|N|Y|Some IPv6 support has been reported. GitHub.IO has v6 support but the main site does not.|
 |Twitter|Web|Twitter|All|N|N|Y| |
-|Plex|Web|Plex.tv|All|N|N|Y| - Needs further investigation, plex appears to now support IOPv6 fully - Plex has "partial" support. Plex supports IPv6 at the socket-layer, but doesn't "auto-configure" IPv6 on the remote-end (the [ipv4].[server-uid].plex.direct system), as such, doscovery via IPv6 does not work at all unless a manual hostname is created and appropriate DNS entries for it (which are sent up to plex.tv as additional hostnames to try)|
 |Synology|Synology Cloud|Synology|All?|N|N|Y|Service does not work over IPv6-only (may via NAT64)|
 |Slack|Web|Slack/Salesforce|All|N|N|Y|No IPv6-only support without NAT64/DNS64.|
 |Discord|Web|Discord|All|N|N|Y|No IPv6-only support without NAT64/DNS64.|
